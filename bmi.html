@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Bmi.css" />
+    <title>BMI</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navlogo"><a href="#">BMI MATTERS</a></div>
+      <ul class="nav_links">
+        <li class="link">Home</li>
+        <li class="link">Blog</li>
+        <li class="link">About Us</li>
+        <li class="link">Services</li>
+        <li class="link">Contacts</li>
+        <li class="link">Success Stories</li>
+        <li class="link">Events</li>
+      </ul>
+      <div class="search_box">
+        <input type="text" placeholder="search" />
+        <i class="ri-search-line"></i>
+      </div>
+    </nav>
+    <div class="section_container">
+      <div class="container">
+        <div class="container_left">
+          <div class="content">
+            <h1>BODY MIND<br />INTELLECT</h1>
+            <p>
+              Where holistic wellness meets excellence. Discover the synergy of
+              body, mind, and intellect with our expert guidance. Unlock your
+              true potential through our comprehensive wellness programs. Empower
+              your body, enrich your mind, and elevate your intellect with us. At
+              Body Mind Intellect, we believe in the power of integrated health.
+              Your journey to wellness begins here.
+            </p>
+            <div class="btns">
+              <button class="read_more">Read More</button>
+              <button class="read_more">Our Blogs</button>
+            </div>
+            <div class="cheverons">
+              <span class="chev_left">
+                <i class="ri-arrow-left-s-line"></i>
+              </span>
+              <span class="chev_right">
+                <i class="ri-arrow-right-s-line"></i>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="container-right">
+          <form>
+            <h4>APPOINTMENT PLACE AND TIME</h4>
+            <div class="form-group">
+              <label for="clinic-choice">Select Clinic</label>
+              <input type="text" name="clinic-choice" id="clinic-choice" />
+            </div>
+            <div class="form-group">
+              <label for="date">Select Date</label>
+              <input type="text" name="Date" id="date" />
+            </div>
+            <button type="submit">Check Availability</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <section class="journey_container">
+      <div class="section__container">
+        <h2 class="section_title">From where Our Journey Started</h2>
+        <p class="Section_subtitle">From India to Europe</p>
+        <div class="country__card">
+          <img src="https://cdn.pixabay.com/photo/2013/08/09/05/58/kuala-lumpur-170985_640.jpg" alt="country" />
+          <div class="country__name">
+            <i class="ri-map-pin-2-fill"></i>
+            <span>Malaysia</span>
+          </div>
+        </div>
+        <div class="country__card">
+          <img src="https://media.istockphoto.com/id/957222486/photo/palm-island-at-sunset-dubai.jpg?s=2048x2048&w=is&k=20&c=ouzx3XrP7Su-IfT4jP6jZI69RUed35BQfKDT6GSSxVY=" alt="country" />
+          <div class="country__name">
+            <i class="ri-map-pin-2-fill"></i>
+            <span>Dubai</span>
+          </div>
+        </div>
+        <div class="country__card">
+          <img src="https://media.istockphoto.com/id/1031467664/photo/view-of-shibuya-shopping-street-with-thousands-of-people.jpg?s=2048x2048&w=is&k=20&c=4ZOCEQn2k37fY8q5mB0t-ndkNObVn07wma1SYfDXb1A=" alt="country" />
+          <div class="country__name">
+            <i class="ri-map-pin-2-fill"></i>
+            <span>Japan</span>
+          </div>
+        </div>
+        <div class="country__card">
+          <img src="data:image/jpeg;base64,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" alt="country" />
+          <div class="country__name">
+            <i class="ri-map-pin-2-fill"></i>
+            <span>Italy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner_container">
+      <div class="section_container">
+        <div class="banner_content">
+          <h2>About Us</h2>
+          <p>
+            At Body Mind Intellect, we empower individuals to achieve holistic
+            wellness by nurturing the body, mind, and intellect. Our expert team
+            provides personalized programs in fitness, nutrition, mental health,
+            and intellectual growth, ensuring a balanced and fulfilling life. Join
+            us to enhance your body, enrich your mind, and elevate your intellect.
+            Discover the power of integrated health with Body Mind Intellect.
+            Your journey to wellness starts here.
+          </p>
+          <button>Explore More</button>
+        </div>
+      </div>
+    </section>
+    <section class="display__container">
+      <div class="section__container">
+        <h2 class="section__title">Why Choose Us</h2>
+        <p class="section__subtitle">
+          At Body Mind Intellect, we offer personalized, holistic wellness
+          programs that nurture your body, mind, and intellect. Our expert team
+          is dedicated to helping you achieve your fullest potential through
+          integrated health solutions.
+        </p>
+      </div>
+    </section>
+    <footer>
+      <div class="section__container">
+        <h4>BMI MATTERS</h4>
+        <div class="social__icons">
+          <span><i class="ri-facebook-fill"></i></span>
+          <span><i class="ri-twitter-fill"></i></span>
+          <span><i class="ri-instagram-line"></i></span>
+          <span><i class="ri-linkedin-fill"></i></span>
+        </div>
+        <p>
+          When BMI is in Balance then everything of the body is in balance.
+        </p>
+      </div>
+    </footer>
+    <a href="#" class="return-to-top" onclick="scrollToTop()">^</a>
+  </body>
+</html>
